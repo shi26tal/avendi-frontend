@@ -1,0 +1,89 @@
+/* Header Container */
+.header-area {
+  background: #ffffff;
+  padding-top: 15px;
+  padding-bottom: 0px;
+  box-sizing: border-box;
+}
+
+/* Container (fluid layout) */
+.container {
+  max-width: 1440px;
+
+  width: 100%;
+
+  padding-right: 15px;
+  padding-left: 15px;
+  margin-right: auto;
+  margin-left: auto;
+}
+
+/* Flex layout for header content */
+.header-content {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding-left: 20px;
+  padding-right: 43px;
+}
+
+/* Logo */
+.logo {
+  object-fit: contain;
+  width: 145px;
+  height: auto;
+  /* padding-right: 43px; */
+}
+
+/* WhatsApp Icon */
+.whatsapp-icon {
+  height: 42px;
+  width: 42px;
+  object-fit: contain;
+  border-radius: 50%;
+  background-color: white;
+  padding: 6px;
+  cursor: pointer;
+}
+
+div {
+  display: block;
+  unicode-bidi: isolate;
+}
+
+img {
+  vertical-align: middle;
+  border-style: none;
+}
+
+/* Responsive Styles */
+
+@media (min-width: 576px) {
+  .container {
+    max-width: 540px;
+  }
+}
+
+@media (min-width: 768px) {
+  .container {
+    max-width: 720px;
+  }
+}
+
+@media (min-width: 992px) {
+  .container {
+    max-width: 960px;
+  }
+}
+
+@media (min-width: 1200px) {
+  .container {
+    max-width: 1140px;
+  }
+}
+
+@media (min-width: 1500px) {
+  .container {
+    max-width: 1440px;
+  }
+}

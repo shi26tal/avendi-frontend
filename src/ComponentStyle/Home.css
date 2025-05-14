@@ -1,0 +1,95 @@
+@import url("https://fonts.googleapis.com/css2?family=Work+Sans:ital,wght@0,100..900;1,100..900&display=swap");
+
+/* text */
+
+.guest {
+  font-family: "Work Sans", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 800; /* change to desired weight */
+  font-style: normal;
+  color: black;
+  text-align: center;
+  font-size: 90px;
+  line-height: 130%;
+  margin-bottom: 0px;
+}
+
+@media screen and (max-width: 992px) {
+  .guest {
+    color: #000;
+    text-align: center;
+    font-family: Work Sans;
+    font-size: 60px;
+    font-style: normal;
+    font-weight: 800;
+    line-height: 130%;
+  }
+}
+
+.guest-description {
+  text-align: center;
+  color: #6b6b6b;
+  line-height: 1.6;
+  font-size: 17.5px;
+  font-weight: 400;
+  margin-top: 0;
+  padding-left: 24px;
+  padding-right: 24px;
+  margin-bottom: 0;
+  font-family: "Work Sans", sans-serif;
+  letter-spacing: -0.3px;
+}
+
+.guest-love-section {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 50px;
+  margin-top: -50px;
+  padding: 20px;
+}
+
+section {
+  unicode-bidi: isolate;
+}
+
+/* video CSS */
+
+.video-container {
+  position: relative;
+  width: 100%;
+  height: 80vh; /* Use viewport height to make it responsive */
+  overflow: hidden;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding-top: 50px; /* Optional spacing above */
+}
+
+/* Video element styling */
+.video-container video {
+  width: 900px;
+  height: 900px;
+  object-fit: contain; /* Or "contain" if you want full video visible with letterboxing */
+  display: block;
+}
+
+/* .bg-video {
+  height: 700px;
+  width: 1500px;
+} */
+
+@media screen and (max-width: 750px) {
+  .video-container {
+    height: auto;
+    padding-top: 30px; /* Reduced padding for smaller screens */
+  }
+
+  .video-container video {
+    width: 100%;
+    height: auto;
+    padding-bottom: 30px;
+    object-fit: contain; /* Ensures full video shows without cropping */
+  }
+}

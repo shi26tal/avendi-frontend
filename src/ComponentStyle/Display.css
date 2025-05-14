@@ -1,0 +1,91 @@
+.display-container {
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+  padding: 6rem;
+  /* padding-top: 0px;
+  padding-bottom: 86px; */
+  font-family: "Arial", sans-serif;
+  background: rgb(247, 246, 246);
+  gap: 2.5rem;
+}
+
+.sidebar {
+  display: flex;
+  flex-direction: column;
+  gap: 2rem;
+  align-items: center;
+  margin-right: 3.75rem;
+  justify-content: space-around;
+}
+.sidebar button {
+  border: none;
+  background: none;
+  cursor: pointer;
+  height: 100px;
+  width: 100px;
+}
+
+.sidebar-icon {
+  width: 80px;
+  height: 80px;
+  border-radius: 50%;
+  background-color: #e0f0ff;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border: 3px solid transparent;
+  transition: border 0.3s ease;
+}
+
+.sidebar-icon.active {
+  border: 3px solid #4285f4;
+}
+
+.sidebar-icon img {
+  width: 40%;
+  height: 40%;
+}
+
+.icon-text {
+  display: flex;
+}
+
+.phone-display {
+  width: 330px;
+  border-radius: 2rem;
+  overflow: hidden;
+  /* box-shadow: 0 8px 20px rgba(0, 0, 0, 0.15); */
+  /* margin-right: 3rem; */
+}
+
+.phone-display img {
+  width: 100%;
+  display: block;
+}
+
+.content-area {
+  max-width: 400px;
+}
+
+.content-area h1 {
+  color: #1c1c1c;
+  font-family: Work Sans;
+  font-size: 50px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 55px;
+  width: 530px;
+  height: 110px;
+  margin: 0px;
+}
+
+.content-area p {
+  font-size: 16px;
+  color: #666666;
+  line-height: 1.6;
+  font-family: "Arial", sans-serif;
+  width: 495px;
+  height: 163px;
+  font-weight: 400;
+}
