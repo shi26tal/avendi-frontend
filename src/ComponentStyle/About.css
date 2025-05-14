@@ -1,0 +1,87 @@
+@import url("https://fonts.googleapis.com/css2?family=Work+Sans:ital,wght@0,100..900;1,100..900&display=swap");
+
+/* Dashboard section styling */
+.dashboard-section {
+  background-color: #eaf2fc;
+  padding: 60px 40px;
+  text-align: center;
+  font-family: "Work Sans";
+}
+
+.dashboard-section h1 {
+  font-size: 3.125rem;
+  font-weight: 600;
+  color: #1c1c1c;
+  margin: 20px 0px 5px;
+}
+
+.dashboard-section p {
+  font-size: 1.125rem;
+  color: #6b6b6b;
+  text-align: center;
+  /* line-height: 1.6; */
+  margin: 0;
+}
+
+/* Content layout */
+.dashboard-content {
+  display: flex;
+  justify-content: center;
+  /* align-items: start; */
+  /* gap: 3rem; */
+  flex-wrap: wrap;
+  margin-top: 2.5rem;
+}
+
+/* Admin and mobile descriptions */
+
+.dashboard-mobile {
+  flex: 1;
+  max-width: 250px;
+  text-align: left;
+}
+
+.dashboard-admin {
+  margin-left: 20px;
+  margin-top: 60px;
+  flex: 1;
+}
+
+.dashboard-mobile {
+  margin-right: 20px;
+  margin-top: 180px;
+}
+
+.dashboard-admin h3,
+.dashboard-mobile h3 {
+  color: #2f7fed;
+  font-size: 20px;
+  font-weight: 900;
+  font-style: normal;
+  margin: 0;
+  line-height: 160%;
+  text-align: right;
+  font-family: "Work Sans";
+}
+
+.dashboard-admin p,
+.dashboard-mobile p {
+  font-size: 18px;
+  color: #6b6b6b;
+  line-height: 1.5;
+  text-align: right;
+  font-family: "Work Sans";
+}
+
+/* Dashboard image */
+.dashboard-image {
+  flex: 2;
+  /* max-width: 600px; */
+  text-align: center;
+}
+
+.dashboard-image img {
+  border-radius: 10px;
+  width: 700px;
+  height: 456px;
+}

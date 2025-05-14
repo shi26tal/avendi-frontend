@@ -1,3 +1,5 @@
+@import url("https://fonts.googleapis.com/css2?family=Work+Sans:ital,wght@0,100..900;1,100..900&display=swap");
+
 .display-container {
   display: flex;
   align-items: center;
@@ -30,12 +32,13 @@
   width: 80px;
   height: 80px;
   border-radius: 50%;
-  background-color: #e0f0ff;
+  background-color: #cae1f9;
   display: flex;
   align-items: center;
   justify-content: center;
   border: 3px solid transparent;
   transition: border 0.3s ease;
+  flex-direction: column;
 }
 
 .sidebar-icon.active {
@@ -45,10 +48,15 @@
 .sidebar-icon img {
   width: 40%;
   height: 40%;
+  /* z-index: 2; */
 }
 
 .icon-text {
   display: flex;
+  /* z-index: 2; */
+  color: #2f7fed;
+  font-family: "Work Sans", sans-serif;
+  font-size: 12px;
 }
 
 .phone-display {
@@ -84,7 +92,7 @@
   font-size: 16px;
   color: #666666;
   line-height: 1.6;
-  font-family: "Arial", sans-serif;
+  font-family: "Work Sans", sans-serif;
   width: 495px;
   height: 163px;
   font-weight: 400;
