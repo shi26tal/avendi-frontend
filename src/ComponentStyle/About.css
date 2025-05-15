@@ -85,3 +85,87 @@
   width: 700px;
   height: 456px;
 }
+
+/* why us? */
+.why-us-section {
+  background-color: #f9f9f9;
+  padding: 60px 60px 60px 90px;
+  font-family: "Arial", sans-serif;
+}
+
+.why-container {
+  max-width: 1200px;
+  height: 540px;
+  margin: 0 auto;
+  /* width: 100%;
+  padding-right: 15px;
+  padding-left: 15px;
+  margin-right: auto;
+  margin-left: auto; */
+}
+
+.why-heading {
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+  gap: 7rem;
+  flex-wrap: wrap;
+}
+
+.why-heading h1 {
+  font-size: 42px;
+  font-weight: 550;
+  color: #222;
+  max-width: 60%;
+}
+
+.why-heading img {
+  max-width: 200px;
+  height: auto;
+}
+
+.why-content {
+  margin-top: 35px;
+}
+
+.why-content .row {
+  /* display: flex;
+  justify-content: space-between;
+  gap: 20px;
+  flex-wrap: wrap; */
+
+  display: flex;
+  flex-wrap: wrap;
+  margin-right: -15px;
+  margin-left: -15px;
+  font-family: "Work Sans";
+  justify-content: flex-start;
+  height: 316px;
+  width: 1080px;
+}
+
+.col3 {
+  flex: 1;
+  position: relative;
+  width: 100%;
+  padding-right: 15px;
+  padding-left: 15px;
+}
+
+.col-img img {
+  width: 85px;
+  height: 85px;
+}
+
+.col-text h2 {
+  font-size: 22px;
+  font-weight: 600;
+  color: #000;
+  margin: 20px 0;
+}
+
+.col-text p {
+  font-size: 17px;
+  color: #666;
+  line-height: 1.6;
+}
