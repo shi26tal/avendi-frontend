@@ -39,17 +39,14 @@
   flex: 1;
   max-width: 250px;
   text-align: left;
+  margin-right: 20px;
+  margin-top: 180px;
 }
 
 .dashboard-admin {
   margin-left: 20px;
   margin-top: 60px;
   flex: 1;
-}
-
-.dashboard-mobile {
-  margin-right: 20px;
-  margin-top: 180px;
 }
 
 .dashboard-admin h3,
@@ -90,7 +87,7 @@
 .why-us-section {
   background-color: #f9f9f9;
   padding: 60px 60px 60px 90px;
-  font-family: "Arial", sans-serif;
+  font-family: "Work Sans", sans-serif;
 }
 
 .why-container {
@@ -168,4 +165,156 @@
   font-size: 17px;
   color: #666;
   line-height: 1.6;
+}
+
+/* responsive */
+
+/* ======= MOBILE RESPONSIVE MEDIA QUERIES ======= */
+
+@media (max-width: 1024px) {
+  .dashboard-image img {
+    width: 100%;
+    max-width: 500px;
+    height: auto;
+  }
+
+  .why-content .row {
+    width: 100%;
+    height: auto;
+  }
+}
+
+@media (max-width: 768px) {
+  /* Dashboard Section */
+  .dashboard-section {
+    padding: 40px 20px;
+  }
+
+  .dashboard-section h1 {
+    font-size: 2.25rem;
+  }
+
+  .dashboard-section p {
+    font-size: 1rem;
+  }
+
+  /* Dashboard Content stacked */
+  .dashboard-content {
+    flex-direction: column;
+    align-items: center;
+    margin-top: 1.5rem;
+  }
+
+  /* Admin and Mobile left aligned */
+  .dashboard-mobile,
+  .dashboard-admin {
+    max-width: 100%;
+    margin: 20px 0 !important;
+    text-align: left !important; /* keep left alignment */
+    margin-left: 0 !important;
+    margin-right: 0 !important;
+  }
+
+  .dashboard-image {
+    flex: none;
+    max-width: 100%;
+    margin: 0 auto 40px;
+  }
+
+  .dashboard-image img {
+    width: 100%;
+    max-width: 400px;
+    height: auto;
+  }
+
+  /* Why Us Section */
+  .why-us-section {
+    padding: 40px 20px 40px 20px;
+  }
+
+  .why-container {
+    height: auto;
+    max-width: 100%;
+  }
+
+  /* Keep why-heading on one line with horizontal scroll */
+  .why-heading {
+    flex-direction: row;
+    align-items: flex-start;
+    gap: 1rem;
+    overflow-x: visible;
+  }
+
+  .why-heading h1 {
+    font-size: 24px;
+    white-space: normal;
+  }
+
+  .why-heading img {
+    max-width: 120px;
+    margin-top: 0.5rem;
+  }
+
+  /* Why content rows stacked */
+  .why-content .row {
+    flex-direction: column;
+    height: auto;
+    width: 100%;
+  }
+
+  .col3 {
+    padding-left: 0;
+    padding-right: 0;
+    margin-bottom: 30px;
+  }
+
+  .col-img img {
+    width: 60px;
+    height: 60px;
+  }
+
+  .col-text h2 {
+    font-size: 18px;
+    margin: 10px 0;
+  }
+
+  .col-text p {
+    font-size: 15px;
+  }
+}
+
+@media (max-width: 480px) {
+  .dashboard-section h1 {
+    font-size: 1.8rem;
+  }
+
+  .dashboard-section p {
+    font-size: 0.9rem;
+  }
+
+  .dashboard-mobile,
+  .dashboard-admin {
+    margin-top: 15px;
+    text-align: left !important; /* reinforce left alignment */
+  }
+
+  .dashboard-image img {
+    max-width: 100%;
+  }
+
+  .why-heading h1 {
+    font-size: 24px;
+  }
+
+  .why-heading img {
+    max-width: 100px;
+  }
+
+  .col-text h2 {
+    font-size: 16px;
+  }
+
+  .col-text p {
+    font-size: 14px;
+  }
 }

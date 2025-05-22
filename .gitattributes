@@ -1,0 +1,10 @@
+# Treat all files as text and normalize line endings to LF
+* text=auto
+
+# Explicitly set LF line endings for certain file types
+*.json text eol=lf
+*.svg text eol=lf
+*.js text eol=lf
+*.ts text eol=lf
+*.html text eol=lf
+*.css text eol=lf

@@ -4,9 +4,11 @@ import { AppRoute } from "./Route/AppRoute.jsx";
 import { Home } from "./Component/Home.jsx";
 import { Footer } from "./Component/Footer.jsx";
 import { About } from "./Component/About.jsx";
-import { Review } from "./Component/Review.jsx";
 import Header from "./Component/Header.jsx";
 import { Display } from "./Component/Display.jsx";
+import { QA } from "./Component/QA.jsx";
+import TestimonialSection from "./Component/TestimonialSection.jsx";
+import { Slider } from "./Component/Slider.jsx";
 
 function App() {
   return (
@@ -15,7 +17,9 @@ function App() {
       <Home></Home>
       <Display></Display>
       <About></About>
-      <Review></Review>
+      {/* <TestimonialSection></TestimonialSection> */}
+      <Slider></Slider>
+      <QA></QA>
       <Footer></Footer>
     </div>
   );
